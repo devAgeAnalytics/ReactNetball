@@ -20,6 +20,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "material-ui": "^0.17.2",
     "react": "^15.5.3",
+
     "react-breadcrumb": "^1.0.0",
     "react-breadcrumbs": "^1.5.2",
     "react-dom": "^15.5.3",
