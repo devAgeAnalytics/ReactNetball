@@ -4,21 +4,18 @@
   import FontIcon from 'material-ui/FontIcon';
   import MapsPersonPin from 'material-ui/svg-icons/maps/person-pin';
   import Breadcrumb from 'react-breadcrumb';
-  import Panel from 'muicss/lib/react/panel';
-  import Row from 'muicss/lib/react/row';
-  import Col from 'muicss/lib/react/col';
-  import DataTables from 'material-ui-datatables';
+
+import Divider from 'material-ui/Divider';
   import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
   import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
-import Ladder from './ladder.jsx';
-import Ladder1 from './ladder.jsx';
+
 import Slider from 'material-ui/Slider';
-import Divider from 'muicss/lib/react/divider';
+
 import {Tabs, Tab} from 'material-ui/Tabs';
 import AppBar from 'material-ui/AppBar';
-import LadderMain from './laddermain.jsx';
+import LadderMain from './LadderComponent/laddermain.jsx';
 
 import {GridList, GridTile} from 'material-ui/GridList';
 import Avatar from 'material-ui/Avatar';
@@ -103,7 +100,7 @@ class MenuBar extends React.Component{
           <Tab style={styles.tab[0]}
 
             label="HOME"
-          > </Tab>
+          />
           <Tab style={styles.tab[1]}
 
             label="NEWS"
@@ -129,7 +126,7 @@ class MenuBar extends React.Component{
             label="IMAGES"
           />
         </Tabs>
-                      <Divider />
+                      <Divider style={{height:'4%',padding:'1px',}}/>
 <TabBar />
 
       <LadderMain />
@@ -137,13 +134,7 @@ class MenuBar extends React.Component{
     );
   }
 }
- class New extends React.Component{
-   render(){
-     return(
-       <div>jbhsghasghgasghasgasgh</div>
-     );
-   }
- }
+
 
 
 class TabBar extends React.Component{
